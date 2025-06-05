@@ -16,7 +16,6 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             isOpen={menuOpen} 
             onClick={() => setMenuOpen((prev) => !prev)} 
           />
-
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-gray-300 hover:text-white transition-colors">
               Home
